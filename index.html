@@ -11,15 +11,18 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body style="padding: 5rem;">
-   <div class="callout callout--primary">
-    <div class="grid grid--1x2">
-        <div class="callout__content">
-            <h2 class="callout__heading">Ready to get started?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, iusto! Voluptas porro sunt asperiores odio praesentium ipsum nostrum maiores repellendus?</p>
-        </div>
-        <div class="btn btn--secondary btn--stretched">Get Started</div>
-    </div>
-   </div>
+<body>
+  <div class="collapsible collapsible--expanded">
+  <header class="collapsible__header">
+    <h2 class="collapsible__heading">Item 1</h2>
+    <svg class="icon icon--primary collapsible__chevron">
+      <use xlink:href="images/sprite.svg#chevron"></use>
+    </svg>
+  </header>
+  <div class="collapsible__content">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, accusamus.
+  </div>
+</div>
+<script src="js/main.js"></script>
 </body>
 </html>
